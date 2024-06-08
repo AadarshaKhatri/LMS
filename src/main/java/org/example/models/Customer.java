@@ -24,9 +24,9 @@ public class Customer {
 
     }
     public void slip(){
-        System.out.println("Customer Info\n");
-        System.out.println("Name: "+this.name+"/n" +
-                "Roll number: "+this.roll_no+"/n" +
-                "Grade; "+ this.grade);
+
+        System.out.println("Name: "+this.name+"\n" +
+                "Roll number: "+this.roll_no+"\n" +
+                "Grade: "+ this.grade);
     }
 }
